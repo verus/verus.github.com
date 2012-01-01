@@ -4,7 +4,7 @@
   <title><![CDATA[Verus Repository]]></title>
   <link href="http://verus.github.com/atom.xml" rel="self"/>
   <link href="http://verus.github.com/"/>
-  <updated>2012-01-01T16:13:13+09:00</updated>
+  <updated>2012-01-01T16:16:23+09:00</updated>
   <id>http://verus.github.com/</id>
   <author>
     <name><![CDATA[Verus]]></name>
@@ -18,7 +18,8 @@
     <link href="http://verus.github.com/blog/2012/01/01/second-post/"/>
     <updated>2012-01-01T16:09:00+09:00</updated>
     <id>http://verus.github.com/blog/2012/01/01/second-post</id>
-    <content type="html"><![CDATA[<p>にかいめ！</p>
+    <content type="html"><![CDATA[<p>にかいめ！
+<img src="http://farm7.staticflickr.com/6152/6184550915_8d82489ae6_z_d.jpg" alt="跳.jpネタ" /></p>
 ]]></content>
   </entry>
   
