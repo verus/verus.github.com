@@ -4,7 +4,7 @@
   <title><![CDATA[Verus Repo Blog]]></title>
   <link href="http://verus.github.com/atom.xml" rel="self"/>
   <link href="http://verus.github.com/"/>
-  <updated>2012-01-01T13:00:04+09:00</updated>
+  <updated>2012-01-01T13:06:52+09:00</updated>
   <id>http://verus.github.com/</id>
   <author>
     <name><![CDATA[Verus]]></name>
@@ -15,10 +15,14 @@
   
   <entry>
     <title type="html"><![CDATA[はじめてのぽすと]]></title>
-    <link href="http://verus.github.com/blog/2012/01/01/new-post/"/>
+    <link href="http://verus.github.com/blog/2012/01/01/first-post/"/>
     <updated>2012-01-01T11:52:00+09:00</updated>
-    <id>http://verus.github.com/blog/2012/01/01/new-post</id>
-    <content type="html"><![CDATA[<p>どうよ！</p>
+    <id>http://verus.github.com/blog/2012/01/01/first-post</id>
+    <content type="html"><![CDATA[<p><a href="http://octopress.org/">Octopress</a>を知ったので，<a href="http://pages.github.com/">github pages</a>に入れてみたよ！</p>
+
+<p>ついでだから，ビューを<a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>を使ってみたし！</p>
+
+<p>どうよ！</p>
 ]]></content>
   </entry>
   
