@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Verus Repository]]></title>
-  <link href="http://verus.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Other | Verus Repository]]></title>
+  <link href="http://verus.github.com/categories/other/atom.xml" rel="self"/>
   <link href="http://verus.github.com/"/>
   <updated>2012-01-01T19:06:47+09:00</updated>
   <id>http://verus.github.com/</id>
@@ -12,17 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[にかいめのぽすと]]></title>
-    <link href="http://verus.github.com/blog/2012/01/01/second-post/"/>
-    <updated>2012-01-01T16:09:00+09:00</updated>
-    <id>http://verus.github.com/blog/2012/01/01/second-post</id>
-    <content type="html"><![CDATA[<p>にかいめ！</p>
-
-<p><img src="http://farm7.staticflickr.com/6152/6184550915_8d82489ae6_d.jpg" alt="跳.jpネタ" /></p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[はじめてのぽすと]]></title>
