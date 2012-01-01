@@ -1,0 +1,8 @@
+.software dl dt{
+	font-size: 1.5em;
+}
+
+.software dl dd{
+	font-size: 1.1em;
+	padding: 4px 0px 4px 0px;
+}
