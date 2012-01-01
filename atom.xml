@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Verus Repo]]></title>
+  <title><![CDATA[Verus Repository]]></title>
   <link href="http://verus.github.com/atom.xml" rel="self"/>
   <link href="http://verus.github.com/"/>
-  <updated>2012-01-01T15:31:41+09:00</updated>
+  <updated>2012-01-01T15:45:52+09:00</updated>
   <id>http://verus.github.com/</id>
   <author>
     <name><![CDATA[Verus]]></name>
