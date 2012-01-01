@@ -2,18 +2,22 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://verus.github.com/blog/2012/01/01/first-post/</loc>
-        <lastmod>2012-01-01T15:28:46+09:00</lastmod>
+        <lastmod>2012-01-01T16:34:10+09:00</lastmod>
     </url>
     <url>
         <loc>http://verus.github.com/blog/2012/01/01/second-post/</loc>
-        <lastmod>2012-01-01T16:17:51+09:00</lastmod>
+        <lastmod>2012-01-01T16:34:10+09:00</lastmod>
     </url>
     <url>
         <loc>http://verus.github.com/blog/archives/</loc>
-        <lastmod>2012-01-01T16:17:51+09:00</lastmod>
+        <lastmod>2012-01-01T16:43:32+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://verus.github.com/blog/</loc>
+        <lastmod>2012-01-01T16:37:00+09:00</lastmod>
     </url>
     <url>
         <loc>http://verus.github.com/</loc>
-        <lastmod>2012-01-01T16:17:51+09:00</lastmod>
+        <lastmod>2012-01-01T17:12:59+09:00</lastmod>
     </url>
 </urlset>
