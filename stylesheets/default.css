@@ -1,8 +1,14 @@
-.software dl dt{
+.well dl dt{
 	font-size: 1.5em;
+  color: black;
 }
 
-.software dl dd{
+.well dl dd{
 	font-size: 1.1em;
 	padding: 4px 0px 4px 0px;
 }
+
+.hero-unit{
+  background-color: #DDD;
+}
+
