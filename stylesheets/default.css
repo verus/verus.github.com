@@ -1,6 +1,7 @@
 .well dl dt{
 	font-size: 1.5em;
   color: black;
+  line-height: 1.2em;
 }
 
 .well dl dd{
