@@ -4,7 +4,7 @@
   <title><![CDATA[Verus Repository]]></title>
   <link href="http://verus.github.com/atom.xml" rel="self"/>
   <link href="http://verus.github.com/"/>
-  <updated>2012-02-14T06:06:24+09:00</updated>
+  <updated>2012-02-14T06:19:16+09:00</updated>
   <id>http://verus.github.com/</id>
   <author>
     <name><![CDATA[Verus]]></name>
@@ -18,7 +18,11 @@
     <link href="http://verus.github.com/blog/2012/02/14/game-theory/"/>
     <updated>2012-02-14T06:00:00+09:00</updated>
     <id>http://verus.github.com/blog/2012/02/14/game-theory</id>
-    <content type="html"><![CDATA[<p>バレンタインデーですね．</p>
+    <content type="html"><![CDATA[<blockquote><p><img src="http://farm5.staticflickr.com/4046/4356054696_12158038bd.jpg" alt="Valentine Day" /></p>
+
+<p><a href="http://www.flickr.com/photos/brown_eyed_dreamer/4356054696/">By brown_eyed_dreamer</a></p></blockquote>
+
+<p>バレンタインデーですね．</p>
 
 <p>バレンタインデーと言えば，女の子にチョコを渡したり，ホワイトデーに見返りを期待したり，戦略的ですよね．</p>
 
