@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Game_Theory | Verus Repository]]></title>
   <link href="http://verus.github.com/blog/categories/game-theory/atom.xml" rel="self"/>
   <link href="http://verus.github.com/"/>
-  <updated>2012-02-14T05:56:36+09:00</updated>
+  <updated>2012-02-14T06:06:24+09:00</updated>
   <id>http://verus.github.com/</id>
   <author>
     <name><![CDATA[Verus]]></name>
@@ -14,13 +14,27 @@
 
   
   <entry>
-    <title type="html"><![CDATA[ゲーム理論しようぜ]]></title>
+    <title type="html"><![CDATA[ゲーム理論しようぜ in バレンタインデー]]></title>
     <link href="http://verus.github.com/blog/2012/02/14/game-theory/"/>
     <updated>2012-02-14T06:00:00+09:00</updated>
     <id>http://verus.github.com/blog/2012/02/14/game-theory</id>
-    <content type="html"><![CDATA[<p>先日まで，大学のゲーム理論の授業で使っていた教科書をご紹介しますよ．</p>
+    <content type="html"><![CDATA[<p>バレンタインデーですね．</p>
 
-<p>大学のゲーム理論の授業で参考に使っていた教科書が，無償で公開されている本だったので，そのリンクをば．</p>
+<p>バレンタインデーと言えば，女の子にチョコを渡したり，ホワイトデーに見返りを期待したり，戦略的ですよね．</p>
+
+<p>そんな戦略を考えながら，今日を過ごす男性，女性の方々にはゲーム理論の勉強をお勧めします．</p>
+
+<p>これがあれば，女の子を戦略的におとしたり，男性に戦略的にプレゼントを要求できたりするかもしれません．</p>
+
+<p>ゲーム理論というのは</p>
+
+<blockquote><p>ゲーム理論（ゲームりろん、theory of games）とは、「ある特定の条件下において、お互いに影響を与え合う複数の主体の間で生じる戦略的な相互関係」を研究する数学、経済学の一分野である。</p>
+
+<p><a href="http://ja.wikipedia.org/wiki/%E3%82%B2%E3%83%BC%E3%83%A0%E7%90%86%E8%AB%96">ゲーム理論 - Wikipedia</a></p></blockquote>
+
+<p>ということらしく，相手がいるゲームにおいて，戦略を考える手法であったりします．</p>
+
+<p>というのも，先日まで大学の授業でゲーム理論を勉強していまして，授業で参考に使っていた教科書が，無償で公開されている本だったので，そのリンクを紹介したいわけです．</p>
 
 <blockquote><p><a href="http://www.cs.cornell.edu/home/kleinber/networks-book/">Networks, Crowds, and Markets:
 Reasoning About a Highly Connected World
@@ -39,6 +53,10 @@ By David Easley and Jon Kleinberg</a></p></blockquote>
 
 
 <p>あたりが，かなり分かりやすく書いてあるので，「とりあえずゲーム理論ってなによ？」という疑問を解くには最適な読み物です．</p>
+
+<p>これで男性と女性の間の戦略が明確に見えてきて，僕はその様を遠くからニヨニヨ観てることで，どうにか寂しいバレンタインデーを過ごすことにします．</p>
+
+<p>ps. お母さんはバレンタインデーカウントに入りますか？</p>
 ]]></content>
   </entry>
   
