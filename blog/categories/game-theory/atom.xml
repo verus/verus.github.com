@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Game_Theory | Verus Repository]]></title>
+  <link href="http://verus.github.com/blog/categories/game-theory/atom.xml" rel="self"/>
+  <link href="http://verus.github.com/"/>
+  <updated>2012-02-14T05:56:36+09:00</updated>
+  <id>http://verus.github.com/</id>
+  <author>
+    <name><![CDATA[Verus]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[ゲーム理論しようぜ]]></title>
+    <link href="http://verus.github.com/blog/2012/02/14/game-theory/"/>
+    <updated>2012-02-14T06:00:00+09:00</updated>
+    <id>http://verus.github.com/blog/2012/02/14/game-theory</id>
+    <content type="html"><![CDATA[<p>先日まで，大学のゲーム理論の授業で使っていた教科書をご紹介しますよ．</p>
+
+<p>大学のゲーム理論の授業で参考に使っていた教科書が，無償で公開されている本だったので，そのリンクをば．</p>
+
+<blockquote><p><a href="http://www.cs.cornell.edu/home/kleinber/networks-book/">Networks, Crowds, and Markets:
+Reasoning About a Highly Connected World
+By David Easley and Jon Kleinberg</a></p></blockquote>
+
+<p>本全体の構成はゲーム理論に限った話ではなく，グラフ理論とか，情報ネットワークとか，そういう話も含まれています．</p>
+
+<p>主に授業で使ったのは，Chapter.6で，</p>
+
+<ul>
+<li>ゲーム理論とはなんぞや</li>
+<li>最適反応，支配戦略</li>
+<li>ナッシュ均衡</li>
+<li>混合戦略</li>
+</ul>
+
+
+<p>あたりが，かなり分かりやすく書いてあるので，「とりあえずゲーム理論ってなによ？」という疑問を解くには最適な読み物です．</p>
+]]></content>
+  </entry>
+  
+</feed>
