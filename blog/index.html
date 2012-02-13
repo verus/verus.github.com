@@ -9,7 +9,7 @@
   <meta name="author" content="Verus">
 
   
-  <meta name="description" content="にかいめのぽすと Jan 1st, 2012 にかいめ！ はじめてのぽすと Jan 1st, 2012 Octopressを知ったので，github pagesに入れてみたよ！ ついでだから，ビューをTwitter Bootstrapを使ってみたし！ どうよ！ Profile Verus &hellip;">
+  <meta name="description" content="Commentary on the Sixth Edition UNIX Operating SystemをKindleで読もうず Feb 14th, 2012 先日，見かけたエントリー( 初めてのOS source code reading(UNIX 6th source code &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -151,6 +151,148 @@
 		
   <header>
 		
+		<h2 class="entry-title"><a href=' /blog/2012/02/14/os-code-reading/ '>Commentary on the Sixth Edition UNIX Operating SystemをKindleで読もうず</a></h2>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-14T00:00:00+09:00" pubdate data-updated="true">Feb 14<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://farm8.staticflickr.com/7195/6869623587_ca9ab3a903.jpg" alt="Kidleでよむお！" /></p>
+
+<p>先日，見かけたエントリー( <a href="http://d.hatena.ne.jp/takahirox/20120212/1329049014">初めてのOS source code reading(UNIX 6th source code readingのススメ)</a> )で，</p>
+
+<blockquote><p>UNIX 6thは初めてOSのソースコードを読む人にうってつけ！　今すぐ読み始めましょう！</p></blockquote>
+
+<p>と書いてあったので，なんか開発者なら読んでおかないといけないような強迫観念にさらされたので，ちょっと読んでみようかと思いつつです．</p>
+
+<p>さて，いざ読もうかと思いつつ，さすがに予備知識無しに特攻するのもあれなので，参考文献に挙げられている，<a href="http://www.lemis.com/grog/Documentation/Lions/">Commentary on the Sixth Edition UNIX Operating System</a>を，まずは読むことにします．</p>
+
+<p>ただ，iPadにPDFを入れても，なんか文字小さいし，これは最近はやりの電子書籍端末で読まないといけない気がしたので，Kindleに入れて見ることを試みてみましたと．</p>
+
+<p>ちなみに，<a href="http://www.lemis.com/grog/Documentation/Lions/">Commentary on the Sixth Edition UNIX Operating System</a>は，PostScript, PDF, TeXフォーマットでしか提供されていなかったので，TeXをどうにかEPUB，そしてmobiフォーマットに変換する必要がありますです．</p>
+
+<p>それなら！と探してみたところ，<a href="http://johnmacfarlane.net/pandoc/">Pandoc</a>というツールが発見されました．
+これは，</p>
+
+<blockquote><p>Pandoc can read markdown and (subsets of) reStructuredText, textile, HTML, and LaTeX, and it can write plain text, markdown, reStructuredText, HTML, LaTeX, ConTeXt, PDF, RTF, DocBook XML, OpenDocument XML, ODT, GNU Texinfo, MediaWiki markup, textile, groff man pages, Emacs org-mode, AsciiDoc, Microsoft Word docx, EPUB ebooks, and S5 and Slidy HTML slide shows. PDF output (via LaTeX) is also supported.</p></blockquote>
+
+<p>と書いてあるとおり，マークアップ系だいたいを相互に変換できるっぽいみたいなので，TeXをEPUBに変換してみますた．</p>
+
+<p>とりあえず，Pandocを<a href="http://johnmacfarlane.net/pandoc/installing.html">Installing</a>を参照しながら，インストールしてですね．</p>
+
+<p>インストールが終わったら，<a href="http://www.lemis.com/grog/Documentation/Lions/">Commentary on the Sixth Edition UNIX Operating System</a>のページから，<a href="http://www.lemis.com/grog/Documentation/Lions/original.tar.gz">gzipped tarball</a>をダウンロードしてきてですね，それを解凍して，ディレクトリ内で次のコマンドを打ちます．</p>
+
+<blockquote><p>ダウンロード先に移動してー</p>
+
+<p>$ cd ~/Downloads/</p>
+
+<p>作業ディレクトリを作ってー</p>
+
+<p>$ mkdir lionc</p>
+
+<p>解凍して</p>
+
+<p>$ tar zxvf original.tar.gz -C lionc</p>
+
+<p>移動して</p>
+
+<p>$ cd lionc</p>
+
+<p>変換します</p>
+
+<p>$ pandoc -r latex -w epub -o lionc.epub lionc.tex</p></blockquote>
+
+<p>ところがですね，ch12.texが文字コードの問題で落ちます．</p>
+
+<blockquote><p>pandoc: ch12.tex: hGetContents: invalid argument (invalid UTF-8 byte sequence)</p></blockquote>
+
+<p>僕は，ch12.texをvimで開いて，set fileencoding=utf-8とかして回避しました．</p>
+
+<p>いざ，気を撮り直して，コマンド打ちます．</p>
+
+<blockquote><p>$ pandoc -r latex -w epub -o lionc.epub lionc.tex</p></blockquote>
+
+<p>どうでしょう，lionc.epubが出来れば完成ですよ.</p>
+
+<p>あとは，Kindleに入れるとしたら，<a href="http://www.amazon.com/gp/feature.html?ie=UTF8&amp;docId=1000234621">kindlegen</a>で変換するだけです．</p>
+
+<p>と安易に思って変換しようと</p>
+
+<blockquote><p>kindlegen lionc.epub</p></blockquote>
+
+<p>と打ってみたら，</p>
+
+<blockquote><p>Error(prcgen): The book title was not set. Please set the title before generating the mobi.</p></blockquote>
+
+<p>と怒られたので，EPUB内部の書籍情報を追記しないといけないっぽいです．
+たぶん，pandocで変換するときに，TeX内にあるtitle的なところを変更しておけば，よかったような気もしますが，ここはどうにか押し通します．</p>
+
+<blockquote><p>一時展開ディレクトリを作ってー</p>
+
+<p>$ mkdir tmp</p>
+
+<p>展開してー</p>
+
+<p>$ unzip lionc.epub -d ./tmp</p>
+
+<p>移動してー</p>
+
+<p>$ cd tmp</p>
+
+<p>書籍情報を編集してー</p>
+
+<p>$ vim content.opf</p></blockquote>
+
+<p>んで，</p>
+
+<blockquote><p>&lt;dc:title>&lt;/dc:title></p></blockquote>
+
+<p>とかなってる空白な要素を</p>
+
+<blockquote><p>&lt;dc:title>Commentary on the Sixth Edition UNIX Operating System&lt;/dc:title></p></blockquote>
+
+<p>のような感じに書き換えます．
+そいで，もう一度EPUBにアーカイブします．</p>
+
+<blockquote><p>$ zip lionc.epub *</p></blockquote>
+
+<p>最後にkindlegenでmobiに変換します．</p>
+
+<blockquote><p>$ kindlegen lionc.epub</p></blockquote>
+
+<p>これでlionc.mobiというファイルが出来ましたので，Kindleに転送すればいい感じで読めます．</p>
+
+<p>お疲れ様でした．</p>
+</div>
+  
+  
+
+
+		<hr />
+    </article>
+  
+  
+    <article>
+		
+  <header>
+		
 		<h2 class="entry-title"><a href=' /blog/2012/01/01/second-post/ '>にかいめのぽすと</a></h2>
     
     
@@ -265,6 +407,10 @@
   <h5>Recent Posts</h5>
   <ul id="recent_posts">
     
+      <li class="post">
+        <a href="/blog/2012/02/14/os-code-reading/">Commentary on the Sixth Edition UNIX Operating SystemをKindleで読もうず</a>
+      </li>
+		
       <li class="post">
         <a href="/blog/2012/01/01/second-post/">にかいめのぽすと</a>
       </li>
