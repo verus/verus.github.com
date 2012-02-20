@@ -4,7 +4,7 @@
   <title><![CDATA[Category: EPUB | Verus Repository]]></title>
   <link href="http://verus.github.com/blog/categories/epub/atom.xml" rel="self"/>
   <link href="http://verus.github.com/"/>
-  <updated>2012-02-21T06:43:35+09:00</updated>
+  <updated>2012-02-21T06:45:59+09:00</updated>
   <id>http://verus.github.com/</id>
   <author>
     <name><![CDATA[Verus]]></name>
@@ -24,7 +24,7 @@
 
 <p>MacのHomebrew用にFormulaを書きました．</p>
 
-<blockquote><p><a href="https://gist.github.com/1871269">easybook Formula</a></p></blockquote>
+<blockquote><p><a href="https://gist.github.com/1871640">easybook Formula</a></p></blockquote>
 
 <p>このファイル(<a href="https://raw.github.com/gist/1871640/63ec425799982fdca64cce0067cace9ddc413475/easybook.rb">easybook.rb</a>)がformulaなので</p>
 
