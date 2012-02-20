@@ -9,7 +9,7 @@
   <meta name="author" content="Verus">
 
   
-  <meta name="description" content="電子書籍生成ツールEasybookのHomebrew Formulaを作りますた Feb 21st, 2012 さーせん！ Formulaがミスってました．ちょっと治す． 治すまで，以下の情報は参考にならないわけです． moongiftさんちで， &hellip;">
+  <meta name="description" content="電子書籍生成ツールEasybookのHomebrew Formulaを作りますた Feb 21st, 2012 moongiftさんちで，easybookなる電子書籍生成ツールを見かけたので， 手軽に電子書籍を作成できるコマンドツール「easybook」 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -174,13 +174,7 @@
   </header>
 
 
-  <div class="entry-content"><p>さーせん！</p>
-
-<p>Formulaがミスってました．ちょっと治す．</p>
-
-<p>治すまで，以下の情報は参考にならないわけです．</p>
-
-<p>moongiftさんちで，easybookなる電子書籍生成ツールを見かけたので，</p>
+  <div class="entry-content"><p>moongiftさんちで，easybookなる電子書籍生成ツールを見かけたので，</p>
 
 <blockquote><p><a href="http://www.moongift.jp/2012/02/20120220-3/">手軽に電子書籍を作成できるコマンドツール「easybook」</a></p></blockquote>
 
@@ -222,7 +216,26 @@ Available commands:
 
 <p>と表示されれば，成功です．</p>
 
-<p>さあ，電子書籍を作りましょう</p>
+<p>ただし，インストール先が/usr/local/Cellarで，
+easybookのnewコマンドでの作業ディレクトリが
+インストール先のdocディレクトリに固定なので，
+権限的にrootじゃないと作成できないオワタです…</p>
+
+<p>つまり</p>
+
+<blockquote><p>$ sudo book new</p></blockquote>
+
+<p>と打たないと，生成できない状態です．
+生成先は実行時に表示されますが，</p>
+
+<blockquote><p>/usr/local/Cellar/easybook/4.0.0/doc/</p></blockquote>
+
+<p>になります．
+easybookの出力先が変えられるようになるまで，待つとしますか．</p>
+
+<p>とはいえ，まぁ</p>
+
+<p>電子書籍を作りましょう！</p>
 </div>
   
   
