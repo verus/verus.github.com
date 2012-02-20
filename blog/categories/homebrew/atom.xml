@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Homebrew | Verus Repository]]></title>
+  <link href="http://verus.github.com/blog/categories/homebrew/atom.xml" rel="self"/>
+  <link href="http://verus.github.com/"/>
+  <updated>2012-02-21T06:04:36+09:00</updated>
+  <id>http://verus.github.com/</id>
+  <author>
+    <name><![CDATA[Verus]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[電子書籍生成ツールEasybookのHomebrew Formulaを作りますた]]></title>
+    <link href="http://verus.github.com/blog/2012/02/21/easybook/"/>
+    <updated>2012-02-21T06:00:00+09:00</updated>
+    <id>http://verus.github.com/blog/2012/02/21/easybook</id>
+    <content type="html"><![CDATA[<p>moongiftさんちで，easybookなる電子書籍生成ツールを見かけたので，MacのHomebrew用にFormulaを書きました．</p>
+
+<blockquote><p><a href="https://gist.github.com/1871269">easybook Formula</a></p></blockquote>
+
+<p>このファイル(<a href="https://raw.github.com/gist/1871269/31a72c596e17330f8624379c3cc00b88e13d5937/easybook.rb">easybook.rb</a>)をダウンロードして</p>
+
+<blockquote><p>$ wget https://raw.github.com/gist/1871269/31a72c596e17330f8624379c3cc00b88e13d5937/easybook.rb</p></blockquote>
+
+<p>にコピーして，</p>
+
+<blockquote><p>$ sudo cp easybook.rb /usr/local/Library/Formula</p></blockquote>
+
+<p>homebrewでインストールコマンドを打ってあげる</p>
+
+<blockquote><p>$ sudo brew install easybook</p></blockquote>
+
+<p>でおｋ．
+この状態で</p>
+
+<blockquote><p>$ book</p></blockquote>
+
+<p>と打って，</p>
+
+<pre>
+
+                     |              |
+ ,---.,---.,---.,   .|---.,---.,---.|__/
+ |---',---|`---.|   ||   ||   ||   ||  \
+ `---'`---^`---'`---|`---'`---'`---'`   `
+                `---'
+
+easybook is the easiest and fastest tool to generate
+technical documentation, books, manuals and websites.
+
+Available commands:
+  help      Displays help for a command
+  list      Lists commands
+  new       Creates a new empty book
+  publish   Publishes an edition of a book
+  version   Shows installed easybook version
+
+</pre>
+
+
+<p>と表示されれば，成功です．</p>
+
+<p>さあ，電子書籍を作りましょう</p>
+]]></content>
+  </entry>
+  
+</feed>
