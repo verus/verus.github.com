@@ -182,9 +182,9 @@
 
 <blockquote><p><a href="https://gist.github.com/1871269">easybook Formula</a></p></blockquote>
 
-<p>このファイル(<a href="https://raw.github.com/gist/1871269/31a72c596e17330f8624379c3cc00b88e13d5937/easybook.rb">easybook.rb</a>)がformulaなので</p>
+<p>このファイル(<a href="https://raw.github.com/gist/1871640/63ec425799982fdca64cce0067cace9ddc413475/easybook.rb">easybook.rb</a>)がformulaなので</p>
 
-<blockquote><p>$ sudo brew install https://raw.github.com/gist/1871269/31a72c596e17330f8624379c3cc00b88e13d5937/easybook.rb</p></blockquote>
+<blockquote><p>$ sudo brew install https://raw.github.com/gist/1871640/63ec425799982fdca64cce0067cace9ddc413475/easybook.rb</p></blockquote>
 
 <p>でインストールおｋ．
 この状態で</p>
@@ -218,15 +218,13 @@ Available commands:
 
 <p>ただし，インストール先が/usr/local/Cellarで，
 easybookのnewコマンドでの作業ディレクトリが
-インストール先のdocディレクトリに固定なので，
-権限的にrootじゃないと作成できないオワタです…</p>
+インストール先のdocディレクトリに固定なのです．</p>
 
 <p>つまり</p>
 
-<blockquote><p>$ sudo book new</p></blockquote>
+<blockquote><p>$ book new</p></blockquote>
 
-<p>と打たないと，生成できない状態です．
-生成先は実行時に表示されますが，</p>
+<p>と生成したとき，保存先は</p>
 
 <blockquote><p>/usr/local/Cellar/easybook/4.0.0/doc/</p></blockquote>
 
