@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Homebrew | Verus Repository]]></title>
   <link href="http://verus.github.com/blog/categories/homebrew/atom.xml" rel="self"/>
   <link href="http://verus.github.com/"/>
-  <updated>2012-02-21T06:13:56+09:00</updated>
+  <updated>2012-02-21T06:19:44+09:00</updated>
   <id>http://verus.github.com/</id>
   <author>
     <name><![CDATA[Verus]]></name>
@@ -18,7 +18,13 @@
     <link href="http://verus.github.com/blog/2012/02/21/easybook/"/>
     <updated>2012-02-21T06:00:00+09:00</updated>
     <id>http://verus.github.com/blog/2012/02/21/easybook</id>
-    <content type="html"><![CDATA[<p>moongiftさんちで，easybookなる電子書籍生成ツールを見かけたので，</p>
+    <content type="html"><![CDATA[<p>さーせん！</p>
+
+<p>Formulaがミスってました．ちょっと治す．</p>
+
+<p>治すまで，以下の情報は参考にならないわけです．</p>
+
+<p>moongiftさんちで，easybookなる電子書籍生成ツールを見かけたので，</p>
 
 <blockquote><p><a href="http://www.moongift.jp/2012/02/20120220-3/">手軽に電子書籍を作成できるコマンドツール「easybook」</a></p></blockquote>
 
