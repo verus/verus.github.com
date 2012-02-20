@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Formula | Verus Repository]]></title>
   <link href="http://verus.github.com/blog/categories/formula/atom.xml" rel="self"/>
   <link href="http://verus.github.com/"/>
-  <updated>2012-02-21T06:06:04+09:00</updated>
+  <updated>2012-02-21T06:09:29+09:00</updated>
   <id>http://verus.github.com/</id>
   <author>
     <name><![CDATA[Verus]]></name>
@@ -26,19 +26,11 @@
 
 <blockquote><p><a href="https://gist.github.com/1871269">easybook Formula</a></p></blockquote>
 
-<p>このファイル(<a href="https://raw.github.com/gist/1871269/31a72c596e17330f8624379c3cc00b88e13d5937/easybook.rb">easybook.rb</a>)をダウンロードして</p>
+<p>このファイル(<a href="https://raw.github.com/gist/1871269/31a72c596e17330f8624379c3cc00b88e13d5937/easybook.rb">easybook.rb</a>)がformulaなので</p>
 
-<blockquote><p>$ wget https://raw.github.com/gist/1871269/31a72c596e17330f8624379c3cc00b88e13d5937/easybook.rb</p></blockquote>
+<blockquote><p>sudo brew install https://raw.github.com/gist/1871269/31a72c596e17330f8624379c3cc00b88e13d5937/easybook.rb</p></blockquote>
 
-<p>にコピーして，</p>
-
-<blockquote><p>$ sudo cp easybook.rb /usr/local/Library/Formula</p></blockquote>
-
-<p>homebrewでインストールコマンドを打ってあげる</p>
-
-<blockquote><p>$ sudo brew install easybook</p></blockquote>
-
-<p>でおｋ．
+<p>でインストールおｋ．
 この状態で</p>
 
 <blockquote><p>$ book</p></blockquote>
