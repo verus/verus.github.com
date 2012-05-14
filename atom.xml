@@ -4,7 +4,7 @@
   <title><![CDATA[Verus Repository]]></title>
   <link href="http://verus.github.com/atom.xml" rel="self"/>
   <link href="http://verus.github.com/"/>
-  <updated>2012-05-15T08:15:45+09:00</updated>
+  <updated>2012-05-15T08:24:34+09:00</updated>
   <id>http://verus.github.com/</id>
   <author>
     <name><![CDATA[Verus]]></name>
@@ -69,7 +69,10 @@
 <br /><br />
 
 
-<p>24時間の流れを追うと，</p>
+<p>どう見ても研究室なので，蛍光灯の紐がなかったのが問題なのですが，蛍光灯の電源を落とすところ以外は全て自動化されています．
+（例えば，電気が消えると自動的にゲームが開始されたりしてます）</p>
+
+<p>さてさて，これを作る上での24時間の流れを追うと，</p>
 
 <pre>
 09時頃から10時頃：ブレインストーミング
