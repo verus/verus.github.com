@@ -4,7 +4,7 @@
   <title><![CDATA[Verus Repository]]></title>
   <link href="http://verus.github.com/atom.xml" rel="self"/>
   <link href="http://verus.github.com/"/>
-  <updated>2012-02-21T09:08:14+09:00</updated>
+  <updated>2012-05-15T08:15:45+09:00</updated>
   <id>http://verus.github.com/</id>
   <author>
     <name><![CDATA[Verus]]></name>
@@ -12,6 +12,91 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[クックパッド開発コンテスト24に参加したよ！]]></title>
+    <link href="http://verus.github.com/blog/2012/05/15/cookpad-develop-contest-24/"/>
+    <updated>2012-05-15T08:00:00+09:00</updated>
+    <id>http://verus.github.com/blog/2012/05/15/cookpad-develop-contest-24</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://info.cookpad.com/wp-content/uploads/24contest_ja.png" width="500" height="150" title="cookpad-develop-contest-24" ></p>
+
+<br /><br />
+
+
+<p>Cookpadの開発コンテスト24が今年もあったので，初めて参加してみましたよ．という話．</p>
+
+<blockquote><p><a href="http://info.cookpad.com/24contest3">Cookpad 開発コンテスト24</a></p></blockquote>
+
+<p>知らない方はリンク先を見てもらえれば，分かると思うのですが，
+発表されたテーマに沿うプログラムを，24時間以内で作成する，というコンテストです．</p>
+
+<p>今年のテーマは</p>
+
+<blockquote><p>一日の終わりを楽しくするもの</p></blockquote>
+
+<p>ということで，私たちは「寝る前」にフォーカスしたわけです．</p>
+
+<p>んで，</p>
+
+<blockquote><p>「寝る前って，電気消すよねー．あ！電気の紐でボクシングとかするじゃんｗｗｗあれデジタル化しようぜｗｗｗ」</p></blockquote>
+
+<p>っていう僕の妄想をペアの誰かが聞きながら大爆笑してたので，これはイケる！と思ったわけです．</p>
+
+<p>とりあえず完成品を見てもらえれば，だいたい分かると思うので，見てもらうとして．</p>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/xTyaxyVeosw" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+<br /><br />
+
+
+<p>こんなものを24時間かけて2人で作っていたわけですよ．</p>
+
+<p>全体的な詳しいシステム構成は別の動画に撮ってあって，こちらも見ていただけるとより分かると思います．</p>
+
+<br />
+
+
+
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/liIJ93k_sw0" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+<br /><br />
+
+
+<p>24時間の流れを追うと，</p>
+
+<pre>
+09時頃から10時頃：ブレインストーミング
+10時頃から12時頃：買い出し（蛍光灯の紐の材料の調達）
+12時頃から15時頃：蛍光灯の紐を制作（赤外線をボールに埋め込んでトラッキングしたかった）
+15時頃から18時頃：赤外線トラッキングが厳しそうな予感がして，急遽可視光のトラッキングへ変更
+18時頃から21時頃：Kinectで体をトラッキングする部分のプログラムを制作
+21時頃から24時頃：ゲーム部分を制作
+24時頃から26時頃：Kinectでボールをトラッキングする部分を制作
+26時頃から27時頃：全体を組み合わせテスト
+27時頃から29時頃：人間が寝た状態で（Kinectで上から撮影すると）動作しないことが判明，調整
+29時頃から32時頃：動画の撮影
+32時頃から33時頃：公開，投稿
+</pre>
+
+
+<p>てな，いわゆるデスマっていうやつを体験しました！
+(なんつったって，プロジェクト開始の瞬間から納期が1日後なワケダカラネ！)</p>
+
+<p>結果としては，残念ながら入賞をしなかったわけなのです．</p>
+
+<p>ですが，人と一緒にデスマする楽しさを教えてくれたクックパッドさんには感謝，かんしゃなのですー．</p>
+
+<p>＃ところで，Kinectで上から撮影すると，骨格トラッキングが正しく動作しないというのが分かったんだけど，
+もしかして骨格トラッキングには加速度センサーの値が利用されているのかしら．という推測が僕らの間ではされています</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[電子書籍生成ツールEasybookのHomebrew Formulaを作りますた]]></title>
